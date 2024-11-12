@@ -5,7 +5,7 @@ GARD (Graph Autoencoder Recommender for Drugs) is a medication recommendation mo
 
 For further inquiries, please contact Mongi Kourchid at: mongi.kourchid@gmail.com.
 
-
+Ce référentiel fournit l'implémentation officielle de PyTorch du document suivant :
 ![image](https://github.com/user-attachments/assets/31f5badd-acee-4777-8936-3eb8df591cb4)
 ### Features and Benefits
 - **Graph Autoencoder (GCN AE)**: Leverages advanced graph neural networks to create high-quality embeddings, enhancing the model's ability to capture complex relationships within clinical and drug interaction data.
