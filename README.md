@@ -14,19 +14,11 @@ Ce référentiel fournit l'implémentation officielle de PyTorch du document sui
 ### Towards a Better Prescription: Graph AutoEncoder for Drug Recommendation
 Mongi KOURCHID
 Higher Institute of Management of GABES
-University of GABES
-GABES, Tunisia
-Email: mongi.kourchid@gmail.com
-Olfa ADOUNI
-Higher Institute of Management of GABES
-University of GABES
-GABES, Tunisia
-Email: olfaadouni77@gmail.com
-Alaa BESSADOK
-Institute of Computational Biology
-Helmholtz AI, Helmholtz Munich
-Neuherberg, Germany
-Email: alaa.bessadok@gmail.com
+University of GABES GABES, Tunisia Email: mongi.kourchid@gmail.com
+Olfa ADOUNI Higher Institute of Management of GABES University of GABES
+GABES, Tunisia Email: olfaadouni77@gmail.com 
+Alaa BESSADOK Institute of Computational Biology
+Helmholtz AI, Helmholtz Munich Neuherberg, Germany Email: alaa.bessadok@gmail.com
 Nacim YANES
 RIADI Laboratory, La Manouba University, La Manouba, 2010, Tunisia
 Higher Institute of Management, University of GABES, Tunisia
