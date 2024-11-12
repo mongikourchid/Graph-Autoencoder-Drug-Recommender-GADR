@@ -5,6 +5,9 @@ GARD (Graph Autoencoder Recommender for Drugs) is a medication recommendation mo
 
 For further inquiries, please contact Mongi Kourchid at: mongi.kourchid@gmail.com.
 
+# # # # # Publication
+This work, titled "Towards a Better Prescription: Graph Autoencoder for Drug Recommendation", has been published in the ICODAI 2024 conference, held in Tunis, Tunisia.
+
 Ce référentiel fournit l'implémentation officielle de PyTorch du document suivant :
 ![image](https://github.com/user-attachments/assets/31f5badd-acee-4777-8936-3eb8df591cb4)
 ### Features and Benefits
