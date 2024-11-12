@@ -49,3 +49,5 @@ The model expects input in the form of:
  Graph adjacency matrix (e.g., a sparse matrix or a dictionary representing edges between drugs).
 # Output Data
 The GARD model generates output data that includes the predicted drug recommendations and their associated confidence scores. This output can be used for evaluation or to make recommendations.
+###  Predicted Drug Recommendations:
+The primary output of the model is a set of recommended drugs for a given input drug. These predictions are generated based on the learned drug representations (embeddings) and the drug interaction graph.
