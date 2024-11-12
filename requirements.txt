@@ -1,0 +1,26 @@
+# GARD requirements
+
+# Core dependencies
+numpy==1.23.0
+pandas==1.5.0
+scikit-learn==1.1.1
+matplotlib==3.5.2
+seaborn==0.11.2
+
+# Deep learning frameworks
+tensorflow==2.10.0
+torch==1.13.0
+torchvision==0.14.0
+
+# Graph-based neural networks
+torch-geometric==2.1.0
+torch-scatter==2.1.1
+torch-sparse==0.6.14
+
+# Other utility libraries
+scipy==1.9.3
+networkx==2.8.4
+tqdm==4.64.0
+
+# For reproducibility
+pip==23.0.1
