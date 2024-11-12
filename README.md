@@ -15,3 +15,5 @@ Ce référentiel fournit l'implémentation officielle de PyTorch du document sui
 To set up and run GARD, follow these steps:
 
 #### 1  Clone the Repository:
+git clone https://github.com/your-username/GARD.git
+cd GARD
