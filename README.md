@@ -36,11 +36,11 @@ The GARD model requires specific input data to train and make predictions for dr
  ##### 1. Graph Data Format:
 GARD uses graph-based data, where each drug is represented as a node, and interactions between drugs are represented as edges. The input data must be in a graph format.
 
- #####  ##### Node Features:
+ # Node Features:
  Each drug is represented by a feature vector. These features could include molecular descriptors, drug-target interactions, or any other relevant chemical or biological features.
- #####  ##### Edge Features:
+ # Edge Features:
  The relationships between drugs are represented as edges, where the edge features can include interactions like binding affinity, chemical similarity, or other types of drug-drug relationships.
- #####  ##### Graph Construction:
+ # Graph Construction:
  A graph construction method needs to be defined, such as creating a drug interaction graph or a molecular similarity graph.
  ##### 2. Data Format:
 The model expects input in the form of:
