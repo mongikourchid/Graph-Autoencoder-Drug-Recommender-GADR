@@ -15,5 +15,20 @@ Ce référentiel fournit l'implémentation officielle de PyTorch du document sui
 To set up and run GARD, follow these steps:
 
 #### 1  Clone the Repository:
-git clone https://github.com/your-username/GARD.git
-cd GARD
+git clone https://github.com/mongikourchid/Graph-Autoencoder-Drug-Recommender-GADR.git
+cd Graph-Autoencoder-Drug-Recommender-GADR
+#### 2 Create and Activate a Virtual Environment (Recommended):
+
+#### .For macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+#### . For Windows:
+python -m venv venv
+venv\Scripts\activate
+ #### 3 Install Dependencies: Ensure Python 3.7 or higher is installed. Then install the required packages from the requirements.txt file:
+ pip install -r requirements.txt
+####  4 Run the Main Script: Once the dependencies are installed, execute the main script:
+python main.py
+ ####  5 Run Tests (Optional): To check that everything is working correctly, you can run the test suite:
+ python -m unittest discover tests/
+
