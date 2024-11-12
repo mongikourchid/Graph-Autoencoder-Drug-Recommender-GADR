@@ -31,19 +31,19 @@ venv\Scripts\activate
 python main.py
  ####  5 Run Tests (Optional): To check that everything is working correctly, you can run the test suite:
  python -m unittest discover tests/
- ### Input Data
+ # Input Data
 The GARD model requires specific input data to train and make predictions for drug recommendations. Below is a description of the expected data formats and the steps to prepare them.
- ##### 1. Graph Data Format:
+### 1. Graph Data Format:
 GARD uses graph-based data, where each drug is represented as a node, and interactions between drugs are represented as edges. The input data must be in a graph format.
 
- # Node Features:
+ ### Node Features:
  Each drug is represented by a feature vector. These features could include molecular descriptors, drug-target interactions, or any other relevant chemical or biological features.
- # Edge Features:
+ ### Edge Features:
  The relationships between drugs are represented as edges, where the edge features can include interactions like binding affinity, chemical similarity, or other types of drug-drug relationships.
- # Graph Construction:
+ ### Graph Construction:
  A graph construction method needs to be defined, such as creating a drug interaction graph or a molecular similarity graph.
- ##### 2. Data Format:
+###  2. Data Format:
 The model expects input in the form of:
 
- #####  #####  Drug feature matrix (e.g., a CSV or numpy array of shape (num_drugs, num_features)).
- #####  #####  Graph adjacency matrix (e.g., a sparse matrix or a dictionary representing edges between drugs).
+ ### Drug feature matrix (e.g., a CSV or numpy array of shape (num_drugs, num_features)).
+ ###  Graph adjacency matrix (e.g., a sparse matrix or a dictionary representing edges between drugs).
