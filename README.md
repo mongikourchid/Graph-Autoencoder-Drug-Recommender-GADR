@@ -45,5 +45,7 @@ GARD uses graph-based data, where each drug is represented as a node, and intera
 ###  2. Data Format:
 The model expects input in the form of:
 
- ### Drug feature matrix (e.g., a CSV or numpy array of shape (num_drugs, num_features)).
- ###  Graph adjacency matrix (e.g., a sparse matrix or a dictionary representing edges between drugs).
+ Drug feature matrix (e.g., a CSV or numpy array of shape (num_drugs, num_features)).
+ Graph adjacency matrix (e.g., a sparse matrix or a dictionary representing edges between drugs).
+# Output Data
+The GARD model generates output data that includes the predicted drug recommendations and their associated confidence scores. This output can be used for evaluation or to make recommendations.
